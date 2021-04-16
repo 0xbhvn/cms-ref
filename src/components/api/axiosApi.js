@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const baseURL = `http://localhost:8000/api/`
-const baseURL = `https://bhavens.herokuapp.com/api/`
+const baseURL = `https://bhavensblog.herokuapp.com/api/`
 const accessToken = localStorage.getItem('access_token')
 
 const axiosAPI = axios.create({
