@@ -52,7 +52,7 @@ function ArticleDetails(props) {
 						{article.article.title}
 					</Typography>
 					<img
-						src={'http://localhost:8000' + article.article.image}
+						src={article.article.image}
 						alt={article.article.title}
 						className={classes.image}
 					/>
