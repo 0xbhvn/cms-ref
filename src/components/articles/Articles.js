@@ -79,7 +79,9 @@ function Articles(props) {
 										<Card className={classes.card}>
 											<CardMedia
 												className={classes.cardMedia}
-												image={article.image}
+												image={
+													article.image.split('?')[0]
+												}
 											/>
 											<Link
 												href={`/articles/${article.slug}`}

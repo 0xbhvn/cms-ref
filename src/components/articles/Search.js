@@ -99,7 +99,7 @@ const Search = () => {
 									<Hidden xsDown>
 										<CardMedia
 											className={classes.cardMedia}
-											image={article.image}
+											image={article.image.split('?')[0]}
 											title={article.title}
 										/>
 									</Hidden>

@@ -158,7 +158,7 @@ const UpdateArticle = (props) => {
 								type="file"
 							/>
 							<img
-								src={article.article.image}
+								src={article.article.image.split('?')[0]}
 								alt={article.article.title}
 							/>
 							<Button
