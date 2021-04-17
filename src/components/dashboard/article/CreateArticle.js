@@ -71,7 +71,7 @@ const CreateArticle = (props) => {
 	const classes = useStyles()
 	const { article, createArticle, history } = props
 	return (
-		<Container component="main" maxWidth="xs">
+		<Container component="main" maxWidth="xm">
 			<CssBaseline />
 			<div className={classes.paper}>
 				<NoteAddIcon className={classes.avatar} />

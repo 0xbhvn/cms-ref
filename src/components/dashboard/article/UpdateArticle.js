@@ -84,7 +84,7 @@ const UpdateArticle = (props) => {
 			<CircularProgress />
 		</div>
 	) : (
-		<Container component="main" maxWidth="xs">
+		<Container component="main" maxWidth="xm">
 			<CssBaseline />
 			<div className={classes.paper}>
 				<NoteAddIcon className={classes.avatar} />
