@@ -77,7 +77,7 @@ const Search = () => {
 						return (
 							<CardActionArea
 								component="a"
-								href={`/article/${article.slug}`}
+								href={`/articles/${article.slug}`}
 							>
 								<Card className={classes.card}>
 									<div className={classes.cardDetails}>
