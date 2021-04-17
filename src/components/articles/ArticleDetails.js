@@ -52,7 +52,7 @@ function ArticleDetails(props) {
 						{article.article.title}
 					</Typography>
 					<img
-						src={article.article.image}
+						src={article.article.image.split('?')[0]}
 						alt={article.article.title}
 						className={classes.image}
 					/>
