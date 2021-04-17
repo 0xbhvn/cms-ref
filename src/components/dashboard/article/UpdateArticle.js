@@ -62,7 +62,7 @@ const validationSchema = Yup.object().shape({
 		.max(140, 'Title should not exceed 140 characters'),
 	body: Yup.string()
 		.required('Body cannot be blank')
-		.max(2800, 'Body too long'),
+		.max(14000, 'Body too long'),
 	category: Yup.string()
 		.required('Category cannot be blank')
 		.max(60, 'Category should not exceed 60 characters'),
